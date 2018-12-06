@@ -1,1 +1,1 @@
-# PardigmasDeProgramacionFinal
+# ParadigmasDeProgramacionFinal
