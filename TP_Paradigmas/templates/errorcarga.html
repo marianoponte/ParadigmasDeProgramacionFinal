@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Error de carga{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+<h1> Errores: </h1> <br>
+{% for x in error %}
+    <h4>{{ x }}.</h4> <br>
+{% endfor %}
+</div>
+<div> <a href={{ url_for('cargarventa') }} class="btn btn-success">Cargar nueva venta<a></div>
+{% endblock %}
